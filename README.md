@@ -23,6 +23,7 @@ This code snippet demonstrates a simple cryptographic approach where a user can 
 
 **2. Field Elements in Elliptic Curve Cryptography (ECDSA)**
 This code snippet demonstrates how to work with field elements in elliptic curve cryptography using the ecdsa library. It creates a field element from an integer and prints the underlying representation. This approach is useful for more advanced cryptographic protocols such as Zero-Knowledge Proofs (ZKPs) and ECDSA signatures.
+This code mimics a [Rust code](https://www.linkedin.com/posts/nelly-njeri-ab5b4b280_i-just-took-my-first-step-toward-building-activity-7283494718557097984-E788?utm_source=share&utm_medium=member_desktop) which uses the Arkworks library for cryptographic field operations. Python does not have a direct equivalent of Arkworks' finite field operations, so you would typically handle these using libraries such as pycryptodome for random number generation or ecdsa for elliptic curve operations.
 
 **How It Works:**
 •	This example uses the ecdsa library to create a finite field element, representing an element of a finite field.
