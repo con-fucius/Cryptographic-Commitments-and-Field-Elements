@@ -8,7 +8,7 @@ This code snippet demonstrates a simple cryptographic approach where a user can 
 1.	The user inputs their date of birth and a secret key.
 2.	The system hashes this information to generate a cryptographic commitment.
 3.	The system can then verify that the user’s age is above a certain threshold (e.g., 18) without revealing the exact date of birth.
-4.	
+
 **Usage:**
 
 •	The user inputs their birthdate and a secret key.
@@ -18,6 +18,8 @@ This code snippet demonstrates a simple cryptographic approach where a user can 
 **How to Run**
         Run the script in a Python environment or Jupyter Notebook.
         The output will indicate whether the age verification passed based on the user's birthdate.
+
+
 
 **2. Field Elements in Elliptic Curve Cryptography (ECDSA)**
 This code snippet demonstrates how to work with field elements in elliptic curve cryptography using the ecdsa library. It creates a field element from an integer and prints the underlying representation. This approach is useful for more advanced cryptographic protocols such as Zero-Knowledge Proofs (ZKPs) and ECDSA signatures.
