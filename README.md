@@ -10,10 +10,9 @@ This code snippet demonstrates a simple cryptographic approach where a user can 
 3.	The system can then verify that the user’s age is above a certain threshold (e.g., 18) without revealing the exact date of birth.
 
 ### **Usage:**
-
-•	The user inputs their birthdate and a secret key.
-•	The system generates a cryptographic commitment to the user's age.
-•	The verifier checks if the commitment matches the user's age and if the age is above the required threshold.
+- The user inputs their birthdate and a secret key.
+- The system generates a cryptographic commitment to the user's age.
+- The verifier checks if the commitment matches the user's age and if the age is above the required threshold.
 
 ### **How to Run**
 1. Run the script in a Python environment or Jupyter Notebook.
